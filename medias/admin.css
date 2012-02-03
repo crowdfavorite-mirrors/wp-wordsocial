@@ -1,0 +1,54 @@
+ul.ui-tabs-nav
+{
+	margin-bottom: -1px;
+    padding-left: 20px;
+}
+
+ul.ui-tabs-nav li
+{
+	border: 1px solid #DFDFDF;
+	border-radius: 6px 6px 0 0;
+    display: inline-block;
+    font-weight: bold;
+    margin: 0 3px 0 0;
+    text-shadow: 0 1px 0 #FFFFFF;
+	padding: 5px 10px 5px 10px;
+	background: #F4F4F4;
+	color: #C1C1C1;
+}
+
+ul.ui-tabs-nav li.ui-tabs-selected 
+{
+	background: white;
+	border-bottom: 1px solid white;
+}
+
+ul.ui-tabs-nav li a
+{
+	text-decoration:none;
+	color: #C1C1C1;
+}
+
+ul.ui-tabs-nav li.ui-tabs-selected  a
+{
+	color: black;
+}
+
+ul.ui-tabs-nav li a:hover
+{
+	color: #21759B;
+}
+
+.wso_page
+{
+    background: white;
+    border: 1px solid #DFDFDF;
+    border-radius: 6px;
+	padding: 5px;
+}
+
+#wso_leftCont { width: 75%; float: left; }
+#wso_sidebar { width: 24%; float: right; margin-top: 15px; }
+#wso_sidebar .postbox-container { width: 100%; }
+#wso_sidebar .postbox { min-width: 100px; }
+#wso_sidebar .inside { padding: 5px;}

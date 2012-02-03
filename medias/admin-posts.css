@@ -1,0 +1,12 @@
+.wso_publish_button { width: 169px; height: 21px; margin-bottom: 3px;}
+.wso_publish_button a { display: block; text-decoration: none; line-height: 21px; }
+
+.wso_publish_button a.wso_button_fb { background: url('publish-fb.gif') no-repeat; }
+.wso_publish_button a.wso_button_tw { background: url('publish-tw.gif') no-repeat; }
+.wso_publish_button a.wso_button_li { background: url('publish-li.gif') no-repeat; }
+.wso_publish_button a.wso_button_tb { background: url('publish-tb.gif') no-repeat; }
+
+.wso_publish_button a.wso_button_checked { background-position: 0 -21px; }
+.wso_publish_button a.wso_button_checked:hover { background-position: 0 0; }
+.wso_publish_button a.wso_button { background-position: 0 -63px; }
+.wso_publish_button a.wso_button:hover { background-position: 0 -42px; }
